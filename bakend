@@ -1,0 +1,7 @@
+rraform {
+  backend "s3" {
+    bucket = "terraform-state-exerci109021982"
+    key    = " terraform-aws/backends3"
+    region = "us-east-1"
+  }
+}
